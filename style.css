@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    /* hero section */
+    --primary-color: ;
+    --secondary-color: ;
+
+    /* time and address section */
+
+
+
+    /* welcome section */
+
+
+    /* ministers section */
+
+
+
+    /* testimonials section */
+
+
+    /* welcome section */
+}
+
+header {
+    height: 80vh;
+    position: relative;
+    background-image: url("https://images.unsplash.com/photo-1589473204000-d1db73c94323?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.heading-warnings {
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 1rem;
+}
+
+.heading-warnings .logo {
+    font-size: 2.3rem;
+    color: white;
+}
+
+.heading-warnings nav {
+    display: flex;
+    align-items: center;
+    gap: .45rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.swipe {
+    position: absolute;
+    left: 21.22%;
+    bottom: 34%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    color: white;
+}
+
+.swipe h1 {
+    width: 60%;
+    font-size: 2rem;
+}
+
+.swipe p {
+    line-height: 22px;
+}
+
+header .cta {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    border-radius: 100%;
+    border: solid 4px blueviolet;
+
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10rem;
+    bottom: 7rem;
+
+    background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+header .cta:hover {
+  transform: rotate(8deg);
+  color: blueviolet;
+  transition: .4s;
+}
+
+main {}
+
+.daysOfTheOnlineService {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding-block: 4rem;
+}
+
+.daysOfTheOnlineService ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+address {
+    display: flex;
+    align-items: center;
+    gap: .11rem;
+}
+
+.welcome {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 3rem;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.welcome iframe {
+    width: auto;
+    height: 543px;
+    aspect-ratio: 16 / 9;
+}
+
+.message-welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    padding-block: 3rem;
+}
+
+.message-welcome p {
+    width: 50%;
+}
+
+.ministers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 4rem;
+}
+
+.wrapper {
+    width: 84%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem auto 0;
+}
+
+.wrapper figure {
+    width: 22%;
+    height: 434px;
+    background-color: whitesmoke;
+    border: solid 2px orangered;
+    border-radius: 1rem;
+    clip-path: polygon(0 0, 82% 0, 100% 12%, 100% 100%, 16% 100%, 0 86%);
+}
+
+.wrapper figure img {
+    width: 100%;
+    height: 347.2px;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.wrapper figure figcaption {
+    padding: 22px 22px 0 0;
+    text-align: end;
+}
+
+footer {}
+
+@media (max-width: 768px) {
+    .heading-top p {
+        width: 45%;
+        font-size: 12px;
+    }
+
+    .swipe h1 {
+        width: 70%;
+        font-size: 1.55rem;
+    }
+
+    .swipe p {
+        width: 70%;
+    }
+
+    header .cta {
+        width: 140px;
+        height: 140px;
+        right: 3rem;
+        bottom: 3rem;
+    }
+
+    .welcome iframe {
+        width: 90%;
+        height: auto;
+    }
+
+    .wrapper {
+        width: 84%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: space-around;
+        align-items: center;
+        margin: 5rem auto 0;
+    }
+
+    .wrapper figure {
+        width: 80%;
+    }
+
+}
