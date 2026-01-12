@@ -27,6 +27,10 @@
     /* welcome section */
 }
 
+a {
+    color: currentColor;
+}
+
 header {
     height: 80vh;
     position: relative;
